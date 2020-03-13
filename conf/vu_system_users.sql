@@ -2,7 +2,7 @@
 -- version 4.5.4.1deb2ubuntu2.1
 -- http://www.phpmyadmin.net
 --
--- Host: k3beta.c7lkgbzlct6d.ap-south-1.rds.amazonaws.com:3306
+-- Host: k3beta
 -- Generation Time: Feb 02, 2020 at 05:25 PM
 -- Server version: 5.7.26-log
 -- PHP Version: 7.0.33-0ubuntu0.16.04.6
@@ -40,11 +40,9 @@ CREATE TABLE `system_users` (
 --
 
 INSERT INTO `system_users` (`login_id`, `username`, `password`, `user_type_id`, `user_type`, `status`) VALUES
-(1, 'admin', '!@#123QWEasd', 1, 'admin', 0),
-(2, 'k3beta', 'k3beta', 2, 'manager', 1),
-(3, 'k3centre', 'k3centre', 3, 'centre', 0),
-(4, 'k3partner', 'k3partner', 4, 'partner', 0),
-(5, 'k3buddy', 'k3buddy', 5, 'buddy', 1);
+(1, 'k3beta', 'k3beta', 1, 'admin', 0),
+(2, 'campus', 'c@mpu$', 2, 'campus', 1),
+(3, 'student', '$tud3nt', 3, 'student', 1);
 
 --
 -- Indexes for dumped tables

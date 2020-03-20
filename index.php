@@ -17,7 +17,7 @@ Date : 01-Jan-2020
 <title>Index</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link rel="stylesheet" href="default.css"  type="text/css" media="all" />
 <link rel="stylesheet" href="fonts.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/style_for_index.css" type="text/css" media="all" />

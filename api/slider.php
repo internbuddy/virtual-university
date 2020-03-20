@@ -152,6 +152,7 @@
 <body>
  <div class="slider slider_circle_10"> 
   <?php
+
   $sql_package="SELECT * FROM vu_campus_master where campus_status='1'";
 
   $result_package=mysqli_query($conn,$sql_package) or die('Problem with query'.mysqli_errno($conn));
@@ -161,7 +162,7 @@
       ?>
   <div>
 
-    <a class="img" target="_parent" href="service-2.php?campus_id=<?= $row_package["campus_id"] ?>"><?php echo "<img src='images/".$row_package['campus_image']."'>"; ?></a>
+    <a class="img" target="_parent" href="service-2.php?campus_id=<?= $row_package["campus_id"] ?>"><?php echo "<img src='../images/{$row_package['campus_image']}'>"; ?></a>
     <div class="slider-desc">
         <h3><?= $row_package["campus_name"]; ?></h3>     
         

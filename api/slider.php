@@ -162,7 +162,7 @@
       ?>
   <div>
 
-    <a class="img" target="_parent" href="service-2.php?campus_id=<?= $row_package["campus_id"] ?>"><?php echo "<img style='height:100%;' src='images/{$row_package['campus_image']}'>"; ?></a>
+    <a class="img" target="_parent" href="service-2.php?campus_id=<?= $row_package["campus_id"] ?>"><?php echo "<img style='height:100%;' src='../images/{$row_package['campus_image']}'>"; ?></a>
     <div class="slider-desc">
         <h3><?= $row_package["campus_name"]; ?></h3>     
         

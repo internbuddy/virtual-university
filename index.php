@@ -42,7 +42,7 @@ Date : 01-Jan-2020
 <div id="header-featured">
 	<div id="banner" class="container" > </div>
 </div>
-	<iframe src="api/slider.php" scrolling="no" frameborder="0" seamless style="height:285px;margin-left:-8px;"></iframe>
+	<iframe src="../api/slider.php" scrolling="no" frameborder="0" seamless style="height:285px;margin-left:-8px;"></iframe>
 
 <div id="wrapper">
 	<div id="featured-wrapper">
